@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <title>Sort</title>
+</head>
+
+
+<style>
+    body {
+        margin: 20px;
+    }
+    h1{
+        text-align: center;
+       
+    }
+
+    h2{
+        margin-top: 40px;
+
+    }
+    div {
+        height: 40px;
+        border: 1px #a677c7ff solid;
+        width: 500px;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <h1 class="p">Sorting Space</h1>
+    <h2>Bubble Sort</h2>
+    <input type="text"  placeholder="e.g., 1 2 3 4" id="number-input" style="width: 500px; ">
+    <label for="number-input">Enter a number</label>
+    <button id="bubble-button">Bubble sort</button>
+    <button class="button-outline" id="clear">Clear</button>
+    <div id="result-display"></div>
+
+    <h2>Selection Sort</h2>
+    <input type="text"  placeholder="e.g., 1 2 3 4" id="selection-input" style="width: 500px; ">
+    <label for="selection-input">Enter a number</label>
+    <button id="selection-button">Selection Sort</button>
+    <button class="button-outline" id="selection-clear">Clear</button>
+    <div id="selection-result"></div>
+
+    <h2>Insertion Sort</h2>
+    <input type="text"  placeholder="e.g., 1 2 3 4" id="insertion-input" style="width: 500px; ">
+    <label for="insertion-input">Enter a number</label>
+    <button id="insertion-button">Insertion Sort</button>
+    <button class="button-outline" id="insertion-clear">Clear</button>
+    <div id="insertion-result"></div>
+
+    <h2>Merge Sort</h2>
+    <input type="text"  placeholder="e.g., 1 2 3 4" id="merge-input" style="width: 500px; ">
+    <label for="merge-input">Enter a number</label>
+    <button id="merge-button">Merge Sort</button>
+    <button class="button-outline" id="merge-clear">Clear</button>
+    <div id="merge-result"></div>
+
+
+    <script src="bubblesort.js"></script>
+    <script src="selectionsort.js"></script>
+    <script src="insertionsort.js"></script>
+    <script src="mergesort.js"></script>
+
+</body>
+</html>
